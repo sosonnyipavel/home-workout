@@ -1,17 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+// styles
+import { ThemeProvider } from '@material-ui/core/styles'
+import { CssBaseline } from '@material-ui/core'
+import theme from './theme'
+import './index.css'
+import App from './components/App/App'
+import Home from './views/Home'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <ThemeProvider theme={theme}>
+    <CssBaseline/>
+    <BrowserRouter>
+    <App>
+      <Switch>
+        <Route path="/" component={Home} />
+      </Switch>
+    </App>
+    </BrowserRouter>
+  </ThemeProvider>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
