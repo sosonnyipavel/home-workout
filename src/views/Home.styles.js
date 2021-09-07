@@ -7,9 +7,34 @@ const styles = (theme) => ({
         height: '100%'
     },
     container:{
+        display: 'flex',
+        flexDirection: 'column',
         margin: '24px 136px',
         width: '100%',
         height: '100%'
+    },
+    breadcrumbContainer: {
+
+    },
+    content: {
+        marginTop: 24,
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-between'
+    },
+    sideBarContainer: {
+        width: '30%',
+        height: 'auto',
+        display: 'flex',
+        alignItems: 'center',
+        marginRight: 12
+    },
+    mainContainer: {
+        width: '70%',
+        height: 'auto',
+        display: 'flex',
+        alignItems: 'center',
+        marginLeft: 12
     }
 });
 
