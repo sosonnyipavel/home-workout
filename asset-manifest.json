@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2558457d.chunk.css",
+    "main.js": "/static/js/main.5e516718.chunk.js",
+    "main.js.map": "/static/js/main.5e516718.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0b5c0481.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0b5c0481.js.map",
+    "static/js/2.52979ccb.chunk.js": "/static/js/2.52979ccb.chunk.js",
+    "static/js/2.52979ccb.chunk.js.map": "/static/js/2.52979ccb.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.2558457d.chunk.css.map": "/static/css/main.2558457d.chunk.css.map",
+    "static/js/2.52979ccb.chunk.js.LICENSE.txt": "/static/js/2.52979ccb.chunk.js.LICENSE.txt",
+    "static/media/logo.7d8e45ce.png": "/static/media/logo.7d8e45ce.png",
+    "static/media/obi-wan.103f2895.jpg": "/static/media/obi-wan.103f2895.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0b5c0481.js",
+    "static/js/2.52979ccb.chunk.js",
+    "static/css/main.2558457d.chunk.css",
+    "static/js/main.5e516718.chunk.js"
+  ]
+}

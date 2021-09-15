@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAIA,UAHE,WAMF,CAHA,KAEE,eACF,CAEA,MACE,WAAY,CACZ,YAAa,CACb,qBACF","file":"main.2558457d.chunk.css","sourcesContent":["html {\n  height: 100%;\n}\n\nbody {\n  height: 100%;\n  overflow: hidden;\n}\n\n#root {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n}"]}
