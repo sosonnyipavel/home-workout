@@ -24,8 +24,9 @@ const styles = (theme) => ({
     },
     sideBarContainer: {
         width: '30%',
-        height: 'auto',
+        height: '40%',
         display: 'flex',
+        flexDirection: 'row',
         alignItems: 'center',
         marginRight: 12
     },
@@ -33,6 +34,7 @@ const styles = (theme) => ({
         width: '70%',
         height: 'auto',
         display: 'flex',
+        flexDirection: 'column',
         alignItems: 'center',
         marginLeft: 12
     }
