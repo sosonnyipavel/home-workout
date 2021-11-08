@@ -13,9 +13,6 @@ const styles = (theme) => ({
         width: '100%',
         height: '100%'
     },
-    breadcrumbContainer: {
-
-    },
     content: {
         marginTop: 24,
         display: 'flex',

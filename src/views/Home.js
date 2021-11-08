@@ -4,6 +4,7 @@ import styles from './Home.styles';
 import BreadcrumbMenu from '../components/Home/BreadcrumbMenu/BreadcrumbMenu';
 import ProfileInformation from '../components/Home/ProfileInformation/ProfileInformation';
 import BookTraining from '../components/Home/BookTraining/BookTraining';
+import CalendarProgress from '../components/Home/CalendarProgress/CalendarProgress';
 
 const Home = (props) => {
     const classes = useStyles(props);
@@ -20,6 +21,7 @@ const Home = (props) => {
                     </div>
                     <div className={classes.mainContainer}>
                         <BookTraining />
+                        <CalendarProgress />
                     </div>
                 </div>
             </div>
